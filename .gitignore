@@ -1,0 +1,53 @@
+# MATLAB generated files
+*.asv
+*.mat
+*.fig
+*.mex*
+*.p
+
+# Generated images
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.avi
+*.mp4
+*.gif
+*.bmp
+*.tif
+*.tiff
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# EXCLUDE ALL txt, tex, xlsx files
+*.txt
+*.tex
+*.xlsx
+
+# BUT EXCEPTION: keep radius_calibration_log.txt
+!03_slm_characterization/profile_analysis/data/radius_calibration_log.txt
+
+# Exclude generated output folders
+**/image/*
+**/movie/*
+**/Va_*/*
+**/result/*
+
+# Keep input images
+!**/preimages/*
+!**/labImage/*
