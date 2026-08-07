@@ -10,13 +10,13 @@ This repository contains the MATLAB code used for simulations, data analysis, an
 
 ```
 code/
-├── 01_initial_idea/                                    # Fig. 1
+├── 01_initial_idea/                                     # Fig. 1
 ├── 02_generation_initial_idea_with_normalization/       # Fig. 2
 ├── 02_generation_initial_idea_without_normalization/    # Fig. 2 & Visualizations 1 & 2
 ├── 03_slm_characterization/                             # Supplement Document Sec. 2
 ├── 04_intensity_detection_plane/                        # Fig. 4
 ├── 05_phase_patterns_second_grating/                    # Fig. 5
-├── 06_power_in_phase_regions/                            # Supplement Document Sec. 3
+├── 06_power_in_phase_regions/                           # Supplement Document Sec. 3
 ├── 07_calibration_theta_effect/                         # Supplement Document Sec. 4
 └── 08_power_of_spots/                                   # Fig. 6 & Visualization 3
 ```
