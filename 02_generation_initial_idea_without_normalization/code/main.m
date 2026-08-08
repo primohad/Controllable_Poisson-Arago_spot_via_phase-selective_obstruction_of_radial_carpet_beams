@@ -286,7 +286,8 @@ if useLens
         scaleFactor = 1;
         profileScaled = yOffset + scaleFactor * (intensityRow / max(intensityRow));
         plot(axTop, x0*1000, profileScaled, 'w-', 'LineWidth', 1);
-        line(axTop, [-limit, limit], [0, 0], 'Color', 'w', 'LineWidth', 0.5, 'LineStyle', ':');
+        line(axTop, [-limit, 0-0.1], [0, 0], 'Color', 'w', 'LineWidth', 0.5, 'LineStyle', ':');
+        line(axTop, [0+0.1, limit], [0, 0], 'Color', 'w', 'LineWidth', 0.5, 'LineStyle', ':');
         
         % Add vertical arrows on left and right sides
         % Left arrow
@@ -448,7 +449,8 @@ else
         scaleFactor = 5;
         profileScaled = yOffset + scaleFactor * (intensityRow);
         plot(axTop, x0*1000, profileScaled, 'w-', 'LineWidth', 1);
-        line(axTop, [-limit, limit], [0, 0], 'Color', 'w', 'LineWidth', 0.5, 'LineStyle', ':');
+        line(axTop, [-limit, 0-0.7], [0, 0], 'Color', 'w', 'LineWidth', 0.5, 'LineStyle', ':');
+        line(axTop, [0+0.7, limit], [0, 0], 'Color', 'w', 'LineWidth', 0.5, 'LineStyle', ':');
         
         % Add vertical arrows on left and right sides
         % Left arrow
